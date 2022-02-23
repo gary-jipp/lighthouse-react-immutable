@@ -1,4 +1,4 @@
-### Immutablility & Update Patterns
+### React State: Immutablility & Update Patterns
 
 - [ ] Anatomy of a React App
 - [ ] Review: Components, JSX, Props, and State
