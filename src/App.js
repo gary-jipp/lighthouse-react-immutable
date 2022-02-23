@@ -20,9 +20,10 @@ export default function App() {
   };
 
   const onClick = function(event) {
-    const newData = data.slice();
-    newData.push(input);
-    setData(newData);
+    // const newData = data.slice();
+    // newData.push(input);
+    // setData(newData);
+    setData([...data, input]);  //  Immutable pattern
   };
 
   const itemList = data.map((item, i) => {
