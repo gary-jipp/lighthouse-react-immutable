@@ -1,10 +1,10 @@
 ### React State: Immutablility & Update Patterns
 
-- [ ] Anatomy of a React App
-- [ ] Review: Components, JSX, Props, and State
-- [ ] Dealing with 'Stale' State
-- [ ] How React compares state
-- [ ] Reference-Equality Optimization
-- [ ] The Problem with Mutating State
-- [ ] Immutable Update Patterns with Arrays and Objects
-- [ ] Updating Complex State
+- [x] Anatomy of a React App
+- [x] Review: Components, JSX, Props, and State
+- [x] Dealing with 'Stale' State
+- [x] How React compares state
+- [x] Reference-Equality Optimization
+- [x] The Problem with Mutating State
+- [x] Immutable Update Patterns with Arrays and Objects
+- [x] Updating Complex State
