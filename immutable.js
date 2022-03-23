@@ -11,7 +11,11 @@ const data = {
 
 const array = [...data.array, 4];
 
-const copy = { ...data, array};
+const copy = { ...data, array };
 
 console.log(data);
 console.log(copy);
+
+const a = [1, 2, 3, 4, 5];
+
+const b = [0, ...a];
