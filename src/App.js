@@ -24,6 +24,7 @@ export default function App() {
     // newData.push(input);
     // setData(newData);
     setData([...data, input]);  //  Immutable pattern
+    setInput("");
   };
 
   const itemList = data.map((item, i) => {
