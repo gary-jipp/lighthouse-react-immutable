@@ -33,9 +33,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h2>
-        My Friends
-      </h2>
+      <h2>My Friends</h2>
 
       <div>
         {count}
