@@ -3,23 +3,12 @@
 - [x] Anatomy of a React App
 - [x] Review: Components, JSX, Props, and State
 - [x] Dealing with 'Stale' State
-- [x] How React compares state
+- [x] React Re-Render (why did they call it 'React')
+- [x] How React compares State
 - [x] Reference-Equality Optimization
 - [x] The Problem with Mutating State
 - [x] Immutable Update Patterns with Arrays and Objects
 - [x] Updating Complex State
-
-### Immutable Update Patterns
-
-- [ ] Anatomy of a React App
-- [ ] Review: Components, JSX, Props, and State
-- [ ] Dealing with 'Stale' State
-- [ ] React Re-Render (why did they call it 'React')
-- [ ] How React compares State
-- [ ] Reference-Equality Optimization
-- [ ] The Problem with Mutating State
-- [ ] Immutable Update Patterns with Arrays and Objects
-- [ ] Updating Complex State
 
 ## Recap - Components, Props & State
 
