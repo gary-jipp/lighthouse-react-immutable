@@ -1,7 +1,7 @@
 ### React State: Immutablility & Update Patterns
 
 - [ ] Anatomy of a React App
-- [ ] Review: Components, JSX, Props, and State
+- [ ] Quick Review: Components, JSX, Props, and State
 - [ ] Dealing with 'Stale' State
 - [ ] React Re-Render (why did they call it 'React')
 - [ ] How React compares State
