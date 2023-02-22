@@ -1,5 +1,5 @@
 import 'App.css';
-import { useState } from "react";
+import {useState} from "react";
 
 export default function App() {
   console.log("App Component Rendering!");
@@ -19,7 +19,7 @@ export default function App() {
     setInput(event.target.value);
   };
 
-  const onClick = function(event) {
+  const addItem = function(event) {
     // const newData = data.slice();
     // newData.push(input);
     // setData(newData);
@@ -27,8 +27,19 @@ export default function App() {
     setInput("");
   };
 
+  const removeItem = function(text) {
+    const newData = data.filter(item => {
+      return item !== text;
+    });
+    setData(newData);
+  };
+
   const itemList = data.map((item, i) => {
-    return <li key={i}>{item}</li>;
+    return <li
+      key={i}
+      onClick={() => removeItem(item)}>
+      {item}
+    </li>;
   });
 
   return (
@@ -41,7 +52,7 @@ export default function App() {
       </div>
 
       <input type="text" onChange={onChange} value={input} /><br />
-      <button type="button" onClick={onClick}> Add Friend </button>
+      <button type="button" onClick={addItem}> Add Friend </button>
 
       <ul>{itemList}</ul>
 
