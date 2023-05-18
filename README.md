@@ -8,3 +8,4 @@
 - [ ] Pure Array functions
 - [ ] Spread operator
 - [ ] Updating Complex State
+- [ ] Examples of Immutable Updates
