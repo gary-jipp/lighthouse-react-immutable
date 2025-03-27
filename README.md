@@ -1,4 +1,5 @@
 ### React State: Immutablility & Update Patterns
+
 - [ ] Review: The React "Render"
 - [ ] How React compares State
 - [ ] Reference-Equality Optimization
